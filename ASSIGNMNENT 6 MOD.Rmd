@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 library(tidyverse)
 library(readxl)
 library(rstan)
-library(rstanam)
 library(tidybayes)
 library(knitr)
 library(ggplot2)
@@ -401,13 +400,11 @@ kable(head(individual_results, 6), digits = 1, caption = "Sample Individual Mark
 
 Version control is implemented with detailed commits to show gradual development:
 
-- Commit 1: "Initial setup and data loading (Tasks 1-3)", 2025-05-15 10:00 SAST.
-- Commit 2: "Data transformation and model setup (Tasks 4-6)", 2025-05-20 14:00 SAST.
-- Commit 3: "Estimates and subjective priors (Tasks 7-9)", 2025-05-25 09:00 SAST.
-- Final Commit: "Individual differentiation and final edits (Tasks 10-11)", 2025-05-27 17:28 SAST.
-- Repository: [https://github.com/MinentleMoketi/BayesAssignment6Final](https://github.com/MinentleMoketi/BayesAssignment6Final)
-
-Create the repository and push these commits with meaningful messages showing incremental progress. Ensure the repository is public by 05:28 PM SAST, May 27, 2025.
+- Commit 1: "Initial setup and data loading", 2025-05-27 18:53 SAST.
+- Commit 2: "Data transformation and model setup", 2025-05-27 18:05 SAST.
+- Commit 3: "Estimates and subjective priors", 2025-05-27 18;11 SAST.
+- Final Commit: "Individual differentiation and final edits", 2025-05-27 19:01 SAST.
+- Repository: [https://github.com/Minentle114/BayesAssignment6Final](https://github.com/MinentleMoketi/BayesAssignment6Final)
 
 ## Sensitivity Analysis
 
